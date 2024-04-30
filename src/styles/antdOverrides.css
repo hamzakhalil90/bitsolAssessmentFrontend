@@ -1,0 +1,139 @@
+/* ----------------------------- CUSTOM CLASSES ----------------------------- */
+
+.square-select .ant-select-selector {
+    @apply !rounded-none;
+}
+
+/* ---------------------------------- MENU ---------------------------------- */
+.ant-menu {
+    @apply !bg-transparent !text-xs;
+}
+
+/* div.ant-menu-submenu-title > span.ant-menu-title-content > * {
+    @apply !text-white;
+} */
+/* li.ant-menu-submenu.ant-menu-submenu-selected > div.ant-menu-submenu-title > * {
+    @apply !text-white;
+} */
+
+.loginsTable .ant-table-cell {
+    @apply !p-0;
+}
+.ant-table-column-sorter-full {
+    @apply !mr-5;
+}
+.administratorRolesTable .ant-table-cell {
+    @apply !px-4 !py-2;
+}
+
+/* CustomCheckboxStyles.css */
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: white;
+    border-color: rgb(204, 204, 204);
+}
+
+.ant-checkbox .ant-checkbox-inner {
+    background-color: white;
+    border-color: rgb(204, 204, 204);
+    padding: 8px;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner::after {
+    border-color: black;
+    border-width: 3px;
+    margin-left: 1px;
+}
+
+.ant-checkbox:hover .ant-checkbox-inner {
+    background-color: white;
+    border-color: black;
+}
+
+.ant-checkbox-disabled .ant-checkbox-inner::after {
+    border-color: rgb(170, 170, 170);
+}
+
+/* ---------------------------------- FORM ---------------------------------- */
+
+div.ant-form-item {
+    @apply !m-0;
+}
+
+/* FORM ITEM LABEL */
+div.ant-col.ant-form-item-label {
+    @apply !py-1;
+}
+div.ant-col.ant-form-item-label > label {
+    @apply !text-sm !font-semibold;
+}
+
+.form-label {
+    @apply !py-1 !text-sm !font-semibold;
+}
+/* --------------------------------- UPLOAD --------------------------------- */
+span.ant-upload.ant-upload-btn {
+    @apply !py-2;
+}
+
+.ant-upload-drag-icon {
+    @apply !text-[1px];
+}
+
+.ant-upload-list-item .ant-upload-list-item-name {
+    @apply !overflow-ellipsis !whitespace-pre-wrap;
+}
+
+/* ------------------------------ COLOR PICKER ------------------------------ */
+div.ant-color-picker-color-block {
+    @apply !w-3/4;
+}
+
+div.ant-color-picker-trigger-text {
+    @apply !w-1/4;
+}
+
+/* ------------------------------ SELECT --------------------------------- */
+
+.financeFormSelect .ant-select-selector {
+    @apply !border-none !pl-[2px] !text-xl !font-bold !text-black !outline-none;
+}
+.programmeSelect .ant-select-selector {
+    @apply !border-none !text-2xl  !text-black  !outline-none;
+}
+.financeFormSelect .ant-select-arrow {
+    @apply !text-black !opacity-100;
+}
+
+/* -------------------------------- COLLAPSE -------------------------------- */
+#application-form-country-panel .ant-collapse-content > .ant-collapse-content-box {
+    @apply !px-0;
+}
+
+/* ---------------------------------- TABS ---------------------------------- */
+#application-form-section-tabpane > .div.ant-tabs-tab {
+    @apply !m-0 !bg-black;
+}
+
+#application-form-section-tabpane .ant-tabs-tab {
+    @apply !ml-6 !mt-0;
+}
+
+/* --------------------------------- SELECT --------------------------------- */
+
+.square-select > div.ant-select-selector {
+    @apply !rounded-none;
+}
+
+/* --------------------------------- CARD --------------------------------- */
+
+.proforma-card .ant-card-body {
+    @apply !py-2;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   TABLES                                   */
+/* -------------------------------------------------------------------------- */
+
+#agent-applications-table .ant-table-body {
+    @apply !max-h-[calc(100dvh-450px)] !overflow-y-auto;
+}
